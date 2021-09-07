@@ -34,6 +34,61 @@ textarea {
   color: #797979;
 }
 
+.buttons-wrapper {
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0.15;
+  background-color: #0081a2;
+  transition: opacity 200ms ease-in-out;
+}
+
+.buttons-wrapper:hover {
+  opacity: 1;
+}
+
+.logo {
+  width: 100%;
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.logo:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons > * + * {
+  margin-left: 0.25rem;
+}
+
+.btn {
+  padding: 0.2rem 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #002b36;
+  border-radius: 0.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #002b36;
+  transition: background-color 70ms ease-in-out, color 70ms ease-in-out;
+}
+
+.btn:hover {
+  color: whitesmoke;
+  background-color: #002b36;
+}
+
 #code-display {
   padding: 0 1rem;
 }
