@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-color: #002b36;
+}
+
+pre {
+  margin: 0;
+}
+
+.wrapper {
+  padding: 1rem;
+  display: flex;
+  font-size: 1rem;
+}
+
+.line-numbers {
+  padding-right: 0.5rem;
+  font-family: monospace;
+  text-align: end;
+  user-select: none;
+  border-right: 1px solid #797979;
+  color: #797979;
+}
+
+#code-display {
+  padding: 0 1rem;
+}
